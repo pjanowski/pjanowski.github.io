@@ -4,7 +4,7 @@ email: pawelrc@gmail.com
 description: > 
   Pawel trying to learn Jekyll
 baseurl: "/JekyllDemo" 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PawelJanowski7
 github_username:  pjanowski
 
