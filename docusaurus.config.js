@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'pjanowski.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Paweˆ Janowski',
       logo: {
         alt: 'My Site Logo',
         src: 'img/science.png',
@@ -22,11 +22,20 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        { 
+		  to: 'blog/',
+		  label: 'Blog', 
+		  position: 'left'
+		},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/pjanowski',
           label: 'GitHub',
           position: 'right',
+        },
+		{
+          to: 'projects/',
+          label: 'Projects',
+          position: 'left',
         },
       ],
     },
@@ -55,7 +64,7 @@ module.exports = {
             },
             {
               label: 'Github',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://github.com/pjanowski',
             },
           ],
         },
@@ -68,7 +77,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/pjanowski',
             },
           ],
         },
