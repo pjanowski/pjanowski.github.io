@@ -23,7 +23,7 @@ module.exports = {
           position: 'left',
         },
         { 
-		  to: 'blog/',
+		  to: 'blog',
 		  label: 'Blog', 
 		  position: 'left'
 		},
@@ -33,7 +33,7 @@ module.exports = {
           position: 'right',
         },
 		{
-          to: 'projects/',
+          to: 'projects/hello',
           label: 'Projects',
           position: 'left',
         },
